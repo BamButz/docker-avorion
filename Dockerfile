@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER chris@cbrgm.de
+LABEL maintainer="chris@cbrgm.de,bambutz@cryptonica.de"
 
 ENV SERVER_ADMIN 0
 
@@ -18,7 +18,7 @@ RUN mkdir -p server
 RUN bin/steamcmd.sh \
 	+login anonymous \
 	+force_install_dir /avorion/server \
-	+app_update 565060 validate \
+	+app_update 565060 -beta beta validate \
 	+quit
 
 # Expose ports and create volume
