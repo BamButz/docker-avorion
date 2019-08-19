@@ -2,7 +2,7 @@ SHELL := /bin/bash
 
 build:
 	mkdir -p world backup
-	docker build --tag "avorion-server:latest" .
+	docker build --tag "avorion-server:latest" -f src/stable/Dockerfile .
 
 run:
 	docker run -itd --name "avorion-docker" -e SERVER_ADMIN=$(ADMIN) -v `pwd`/world:/avorion/server/galaxy/world -p 27000:27000 -p 27000:27000/udp -p 27003:27003 -p 27003:27003/udp -p 27020:27020 -p 27020:27020/udp -p 27021:27021 -p 27021:27021/udp avorion-server:latest
