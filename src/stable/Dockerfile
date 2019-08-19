@@ -1,4 +1,4 @@
-FROM debian:9-slim
+FROM ubuntu:latest
 LABEL maintainer="chris@cbrgm.de,bambutz@cryptonica.de"
 
 ENV SERVER_ADMIN 0
