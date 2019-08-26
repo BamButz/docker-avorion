@@ -1,16 +1,30 @@
-# Avorion Server using Docker
+<h1 align="center">Welcome to Avorion server using Docker 👋</h1>
+<p>
+  <a href="https://github.com/BamButz/docker-avorion/blob/master/LICENSE.md">
+    <img alt="License: MPL-2.0" src="https://img.shields.io/github/license/bambutz/docker-avorion" target="_blank" />
+  </a>
+  <a href="https://hub.docker.com/r/bambutz/avorion">
+    <img alt="Docker: Stars" src="https://img.shields.io/docker/stars/bambutz/avorion.svg" target="_blank" />
+  </a>
+  <a href="https://hub.docker.com/r/bambutz/avorion">
+    <img alt="Docker: Pulls" src="https://img.shields.io/docker/pulls/bambutz/avorion.svg" target="_blank" />
+  </a>
+  <a href="https://hub.docker.com/r/bambutz/avorion">
+    <img alt="Docker: Layers" src="https://img.shields.io/microbadger/layers/bambutz/avorion.svg" target="_blank" />
+  </a>
+  <a href="https://hub.docker.com/r/bambutz/avorion">
+    <img alt="Docker: Image size" src="https://img.shields.io/microbadger/image-size/bambutz/avorion.svg" target="_blank" />
+  </a>
+</p>
 
+> You want to host your own dedicated Avorion Server? Best in a docker container? Then you've come to the right place!
 
 ![Avorion](https://i2.wp.com/bigbossbattle.com/wp-content/uploads/2017/01/logo_done.png?resize=705%2C165&ssl=1)
 ![Docker](https://www.segusoft.de/assets/img/technologies/docker-logo.png)
 
-## Description
+This small side project of mine provides a Dockerfile that will always install and update to the latest steamcmd and Avorion server files. The entire server runs inside a docker container and allows you to easily play with your friends or host a public server. The server can easily be updated and managed by using make.
 
-You want to host your own dedicated Avorion Server? Best in a docker container? Then you've come to the right place!
-
-This small side project of mine provides a `Dockerfile` that will always install and update to the latest `steamcmd` and [Avorion][61e6a3c0] server files. The entire server runs inside a docker container and allows you to easily play with your friends or host a public server. The server can easily be updated and managed by using `make`.
-
-[61e6a3c0]: http://store.steampowered.com/app/445220/Avorion/ "avorion"
+### 🏠 [Homepage](https://github.com/BamButz/docker-avorion)
 
 ## Setting up the Server
 
@@ -104,14 +118,30 @@ Do the following
 -   Copy your backup from `backup` back into `world` folder
 -   Done!
 
-## Feature Request and Contributing
+## Author
 
-You have suggestions for improvements or features you miss? You are welcome to express all your wishes here. Just create a new [Issue][e872f832] and it will be taken care of quickly!
+> This script was originally developed by [Christian Bargmann](https://github.com/cbrgm). Who wanted to play Avorion together with some friends.
 
-[e872f832]: https://github.com/cbrgm/avorion-docker/issues "avorion issues"
+👤 **Chris Bargmann**
 
-## Motivation
+* Github: [@cbrgm](https://github.com/cbrgm)
 
-This script was originally developed by [Christian Bargmann][b9824663]. I wanted to play Avorion together with some friends, this is about how I ended up :-)
+👤 **BamButz**
 
-[b9824663]: http://cbrgm.de "blog"
+* Github: [@BamButz](https://github.com/BamButz)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/BamButz/docker-avorion/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2019 [Chris Bargmann](https://github.com/cbrgm).<br />
+This project is [MPL-2.0](https://github.com/BamButz/docker-avorion/blob/master/LICENSE.md) licensed.
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
