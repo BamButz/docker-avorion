@@ -19,7 +19,7 @@
 
 > You want to host your own dedicated Avorion Server? Best in a docker container? Then you've come to the right place!
 
-![Avorion](https://i2.wp.com/bigbossbattle.com/wp-content/uploads/2017/01/logo_done.png?resize=705%2C165&ssl=1)
+![Avorion](https://www.avorion.net/res/logo_done.png)
 ![Docker](https://www.segusoft.de/assets/img/technologies/docker-logo.png)
 
 This small side project of mine provides a Dockerfile that will always install and update to the latest steamcmd and Avorion server files. The entire server runs inside a docker container and allows you to easily play with your friends or host a public server. The server can easily be updated and managed by using make.
