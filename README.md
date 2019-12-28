@@ -4,16 +4,16 @@
     <img alt="License: MPL-2.0" src="https://img.shields.io/github/license/bambutz/docker-avorion" target="_blank" />
   </a>
   <a href="https://hub.docker.com/r/bambutz/avorion">
-    <img alt="Docker: Stars" src="https://img.shields.io/docker/stars/bambutz/avorion.svg" target="_blank" />
+    <img alt="Docker: Stars" src="https://img.shields.io/docker/stars/bambutz/avorion" target="_blank" />
   </a>
   <a href="https://hub.docker.com/r/bambutz/avorion">
-    <img alt="Docker: Pulls" src="https://img.shields.io/docker/pulls/bambutz/avorion.svg" target="_blank" />
+    <img alt="Docker: Pulls" src="https://img.shields.io/docker/pulls/bambutz/avorion" target="_blank" />
   </a>
   <a href="https://hub.docker.com/r/bambutz/avorion">
-    <img alt="Docker: Layers" src="https://img.shields.io/microbadger/layers/bambutz/avorion.svg" target="_blank" />
+    <img alt="Docker: Layers" src="https://img.shields.io/microbadger/layers/bambutz/avorion" target="_blank" />
   </a>
   <a href="https://hub.docker.com/r/bambutz/avorion">
-    <img alt="Docker: Image size" src="https://img.shields.io/microbadger/image-size/bambutz/avorion.svg" target="_blank" />
+    <img alt="Docker: Image size" src="https://img.shields.io/microbadger/image-size/bambutz/avorion/latest" target="_blank" />
   </a>
 </p>
 
@@ -35,7 +35,7 @@ Follow the steps to get startet!
 Clone this repository and its content using
 
 ```bash
-git clone https://github.com/cbrgm/7days-docker
+git clone https://github.com/BamButz/docker-avorion
 ```
 
 #### Step 2: Create an up-to-date image of avorion-server
